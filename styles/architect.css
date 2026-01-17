@@ -170,3 +170,64 @@ main{
     padding:15px 150px 15px 150px;
     margin-top: 1px;
 }
+ 
+/*Second Card Style*/
+.second-card{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.info{
+    padding: 40px 40px 50px 40px;
+    border: 1px solid  rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    width: 180px;
+    height: 150px;
+}
+.info img{
+    margin-bottom: 10px;
+}
+.info h3{
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Dark 03, rgba(114, 114, 114, 1));
+}
+/*Footer Related Styles*/
+.foot{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#tt{
+    margin-top: 0;
+}
+.sponsor{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+.sponsor img{
+    width: 150px;
+}
+
+.footer{
+    width:1440px;
+    height: 80px;
+    background-color:  rgba(255, 244, 231, 1);
+    margin: 0 auto 90px auto ;
+}
+.footer p{
+    text-align: center;
+    justify-items: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color:  var(--Dark 02, rgb(66, 66, 66));
+}
